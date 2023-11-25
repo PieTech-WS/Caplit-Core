@@ -1,0 +1,10 @@
+{
+  "services/init.svc.py": {
+    "log": "SysInit",
+    "package": "org.cora.caplit.core.svc.init"
+  },
+  "private/kernel.py": {
+    "log": "Kernel",
+    "package": "org.cora.caplit.core.svchost"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "lang": "简体中文",
+  "tmp_config_notfound": "tmp/config目录不存在.",
+  "creating_tmp_config": "创建中...",
+  "preparing_conf": "配置文件准备中...",
+  "moving_file": "移动 {} 到 {}"
+}

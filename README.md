@@ -15,6 +15,14 @@ projectFlamingo
 启动文件(boot.exe/boot) --切换目录并拉起--> init.svc.py 
 --> kernel.py(xmlrpc Service主机)
 
-init.svc.py的作用是准备必要的启动时文件到tmp目录供kernel使用.
+init.svc.py的作用是准备必要的
+启动时文件到tmp目录供kernel使用.
 
 kernel(kernel.py)实际上是服务主机(运行应用/Caplit所需的服务), 应用/Caplit系统组件通过xmlrpc与其通讯.
+
+## 核心API(目前已被使用的)
+
+- connect(通讯库)
+- i18n(多语言支持)
+- service(服务API)
+- log(日志, 现已支持输出到文档)

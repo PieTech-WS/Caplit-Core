@@ -1,4 +1,4 @@
-from colorama import init, Fore
+from site_packs.colorama import init, Fore
 
 
 class Log:
@@ -8,7 +8,7 @@ class Log:
     def process(self, content: str):
         print(":: {}".format(content))
 
-    def child_process(self, content: str):
+    def child_process(content: str):
         print("=> " + content)
 
     def tip(self, content: str):
